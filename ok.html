@@ -37,12 +37,12 @@
 
         .date {
       
-            font-family: tahoma;
+            font-family: monospace;
             font-size: 2em;
         }
 
         .clock {
-            font-family: tahoma;
+            font-family: monospace;
             font-size: 2em;
         }
 
@@ -117,7 +117,7 @@ function dispalyGreetings(today){
         var monthName = monthNames[today.getMonth()];
         var date = today.getDate();
         var year = today.getFullYear();
-        document.getElementById('date').innerHTML =dayName+", "+monthName+" "+date+" "+year;
+        document.getElementById('date').innerHTML =It's + dayName+", "+monthName+" "+date+" "+year;
 
     }
 
